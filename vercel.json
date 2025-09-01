@@ -1,0 +1,8 @@
+{
+  "functions": {
+    "api/sys-last8.js": { "runtime": "edge" }
+  },
+  "routes": [
+    { "src": "/api/sys-last8", "dest": "/api/sys-last8.js" }
+  ]
+}
